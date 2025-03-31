@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    
+}
+
+@layer base {
+    body {
+        @apply bg-neutral-100;
+    }
+}
+.shadow-button-login:hover {
+    box-shadow: 0 0 0 4px #F58927;
+}
+.shadow-button-login-form:hover {
+    box-shadow: 0 0 6px #999;
+}

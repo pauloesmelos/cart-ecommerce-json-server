@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-    
+    --animate-loader: loader .8s infinite linear;
+    @keyframes loader {
+        from { transform: rotate(0); }
+        to { transform: rotate(360deg) }
+    }
 }
 
 @layer base {
@@ -14,4 +18,7 @@
 }
 .shadow-button-login-form:hover {
     box-shadow: 0 0 6px #999;
+}
+.shadow-card-blue:hover {
+    box-shadow: 0 2px 7px #5483e9;
 }
